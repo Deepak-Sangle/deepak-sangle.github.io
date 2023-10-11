@@ -2468,7 +2468,7 @@ h5 {
   width: 4vw;
 }
 .page {
-  -webkit-box-orient: vertical;
+  /* -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
@@ -2480,7 +2480,7 @@ h5 {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: center; */
 }
 .a-hero {
   position: relative;
@@ -2515,21 +2515,21 @@ h5 {
 .img {
   width: 100%;
   height: 100%;
-  background-image: url(../profile.jpg);
-  /* background-image: url("https://uploads-ssl.webflow.com/5ea69b4027484b2df2b45806/5ecff93e023f667e859baf70_profile.jpg"); */
+  background-image: url(../profile2.jpg);
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .a-img-w {
   position: relative;
-  top: -6vw;
+  top: 0vw;
   overflow: hidden;
   width: 40vw;
   height: 50vw;
 }
 .a-block {
   overflow: hidden;
+  margin-bottom: 15px;
 }
 .a-quote {
   width: 80vw;
@@ -3403,9 +3403,10 @@ h5 {
 }
 .a-award {
   width: 100%;
-  padding-top: 5vw;
+  padding-top: -5vw;
   padding-right: 14vw;
   padding-left: 15vw;
+  padding-bottom: 0vw;
 }
 .aw-text {
   font-size: 2vw;
@@ -3414,6 +3415,8 @@ h5 {
 .aw-block {
   display: inline-block;
   margin-top: 5vw;
+  text-align: center;
+  
   float: left;
 }
 .aw-row {
@@ -3765,6 +3768,9 @@ h5 {
   margin-top: 5vw;
   text-align: center;
 }
+.af-link {
+  color: #ffffff;
+}
 .a-speaker {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4073,7 +4079,8 @@ h5 {
   display: flex;
   width: 100%;
   height: 100vh;
-  padding-left: 23vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
